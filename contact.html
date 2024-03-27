@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/7e3c06da8b.js" crossorigin="anonymous"></script>
+    <title>Loosies Superette - Contact</title>
+</head>
+<body>
+    <!-- Navigation Starts -->
+    <header class="navigation-header">
+        <nav>
+            <!-- Logo Container -->
+            <div class="logo-container">
+                <a class="#" href="./index.html">
+                    <img src="./Images/Logo.png" alt="">
+                </a>
+            </div>
+            <!-- Navigation Items -->
+            <div class="navigation-items" id="navigation-items">
+                <a href="./index.html">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">MENU</a>
+                <a href="./contact.html">CONTACT</a>
+            </div>
+            <!-- Hamburger Icons - Open & Close -->
+            <div class="hamburger">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+        </nav>
+    </header>
+<!-- Navigation Ends -->
+
+<div class="contact-page-container">
+    <!-- Header -->
+    <h1>CONTACT US</h1>
+    <img src="./Images/contact-image.png" alt="">
+    <div class="header-glow">
+        <h2>We'd love to<br>hear from you</h2>
+    </div>
+    <!-- Contact Info Starts -->
+    <section class="contact-info">
+        <h2>Email</h2>
+        <p>greasyspoon@losiessuperett.co.nz</p>
+        <h2>Address</h2>
+        <p>135 Cuba Street Te Aro Wellington</p>
+    </section>
+    <!-- Contact Info Ends -->
+
+    <!-- Conatact Form Starts -->
+    <section id="contact">
+        
+        <div class="booking-form-container">
+            <h3>BOOKINK FORM</h3>
+            <FORM>
+                <!-- Name & # of people label text -->
+                <div class="label-names" id="name-and-number-text">
+                    <label for="name">Name:*</label>
+                    <label for="numberOfPeople">Number of people:*</label>
+                </div>
+                <div class="name-and-number">
+                    <!-- Name -->
+                    <input type="text" id="name" name="Name" >
+                    <!-- # of people -->
+                    <input type="text" id="numberOfPeople" name="numberOfPeople" >
+                </div>
+                <!-- Email -->
+                <label class="label-names" for="email">Email:*</label>
+                <input type="text" id="email" name="email" >
+
+                <!-- Phone & Comments label Text -->
+                <div class="label-names">
+                    <label for="phone">Phone no:</label>
+                    <label for="comments">Comments:</label>
+                </div>
+                
+                <div class="phone-and-comments">
+                    <!-- Phone -->
+                    <input type="text" id="phone" name="phone" >
+                    <!-- Comments -->
+                    <input type="text" id="comments" name="comments" >
+                </div>
+                
+                <div class="label-names">
+                    <label for="date">Date:*</label>
+                    <label for="time">Time:*</label>
+                </div>
+                <div class="date-and-time">
+                    <!-- Date -->
+                    <input type="text" id="date" name="date" >
+                    <!-- Time -->
+                    <input type="text" id="time" name="time" >
+                </div>
+    
+                <button id="formSubmit">Submit</button>
+            </FORM>
+        </div>
+    </section>
+    <!-- Contact Form Ends -->
+
+    <!-- Map & Opeening Hours Starts -->
+    <section id="location-hours">
+        <div class="location">
+            <h3 class="pink-header">LOCATION</h3>
+            <div class="map-image"></div>
+        </div>
+        <div class="opening-hours">
+            <h3>OPENING HOURS</h3>
+            <ul>
+                <li>Monday: Closed</li>
+                <li>Tuesday: Closed</li>
+                <li>Wednesday: 12pm - 12am</li>
+                <li>Thursday: 12pm - 12am</li>
+                <li>Friday: 12pm - 2am</li>
+                <li>Saturday: 112pm - 2am</li>
+                <li>Sunday: 12pm - 12 am</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Map & Opeening Hours Ends -->
+</div>
+<!-- Footer Starts -->
+<footer>
+    <!-- Logo Container -->
+    <div class="logo-container">
+        <a class="#" href="#">
+            <img src="./Images/Logo.png" alt="">
+        </a>
+    </div>
+    <div class="footer-social">
+            <h4>Social Media</h4>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/starsocialnz"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/starsocialnz"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+    </div>
+    <div class="footer-navigation">
+        <h4>Quick Links</h4>
+        <ul class="footer-navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="opening-hours">
+        <h4>Opening Hours</h4>
+        <ul>
+            <li>Wednesday - Sunday<br>12pm - Late</li>
+            <li>Monday - Tuesday<br>Clossed</li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h4>Contact Info</h4>
+        <ul>
+            <li><a href="https://www.google.com/maps/place/Loosies+Superette/@-41.29314,174.775966,16z/data=!4m6!3m5!1s0x6d38afae08de6c21:0x10ca66ffe56f5556!8m2!3d-41.2931403!4d174.7759655!16s%2Fg%2F11vlg7vp2t?hl=en-NZ&entry=ttu">Address: 135 Cuba Street,<br>Te Aro, Wellington</a></li>
+            <li>Email: greasyspoon@<br>loosiessuperette.co.nz</li>
+        </ul>
+    </div>
+</footer>
+<!-- Footer Ends -->
+<script src="./script.js"></script>
+</body>
+</html>
